@@ -1,0 +1,150 @@
+//more ways 
+//experiment
+
+/*
+#include <iostream>
+#include<string>
+#include<fstring>
+//fstring is used to read and write files
+using namespace std;
+int main()
+{
+
+    
+    
+    bool pick()
+    {
+        string username ,fullname ,email-address ,passwordcode ,un ,fn ,ea ,pw;
+        
+
+        ifstream read("LRP\\" + username + "main.txt");
+        getline(read, un);
+
+        if( username == un )
+        {
+            return true;
+            } 
+        else
+        {
+            return false;
+            }
+
+        if (fullname == fn){
+            return true;
+            } 
+        else
+        {
+            return false;
+            }
+
+        if (passwordcode == pw) {
+            return true;
+            } 
+        else
+        {
+            return false;
+            }
+        if(email-address = ea) 
+        {
+            return true;
+            } 
+        else
+        {
+            return false;
+            }
+    }
+
+        int main(){
+        bool pick;
+        cout << "1 :Register\2n 2 :LoginYourpick \n"; cin>>pick;
+        if (pick == 1 ) 
+        {
+         string username , password , 
+        string username;
+        cout << "\nEnter your username: \n";
+        cin >> username;
+        
+
+        string fullname;
+        cout << "\n\nEnter your full name: \n";
+        cin >> fullname;
+        getline(cin, fullname);
+        
+
+        string email_address;
+        cout << "\n\nEnter your email_address: \n";
+        cin >> email_address;
+       
+
+        string passwordcode;
+         cout << "\n\nEnter your password: \n";
+        cin >> passwordcode;
+        
+       
+            else (pick == 2){
+            string username;
+            cout << "\nEnter your username: \n"; //<< flush;
+            cin >> username;
+            string password;
+            cout << "\nEnter your password: \n";
+            cin >> password;
+            }
+        }
+        };
+
+                  
+}
+   */
+     /*
+       }
+ofstream file;
+file.open("LRP\\" + username + "main.txt");
+cout<<username<<endl<<password;
+file.close;
+
+        
+}
+
+}
+*/ 
+
+//pick register or login.
+//good is to use boolean for "login or Register"
+//we will use comparison strings ?
+//ifstream("data\\" + username + ".txt") <- file is data right ?
+//use galetin ?to remember spaces(dont use spaces)
+//cout<<"Enter Username";
+//int i;
+//int i =  Username;
+//cin>>i;  
+//flush - flushes the output buffer to its final destination.
+//username
+
+//how to acess flush memory
+
+/*
+
+string username;
+cout << "\nEnter your username: \n" << flush;
+cin >> username;
+cout<<"\nusername is: \n"<<username;
+
+string fullname;
+cout << "\n\nEnter your full name: \n" << flush;
+cin >> fullname;
+getline(cin, fullname);
+cout<<"\nFull Name is: \n"<<fullname;
+
+string email_address;
+cout << "\n\nEnter your email_address: \n" << flush;
+cin >> email_address;
+cout<<"\nEmail-Address is: \n"<<email_address;
+
+string password;
+cout << "\n\nEnter your password: \n" << flush;
+cin >> password;
+cout<<"\nPassword is: \n"<<password;
+
+string CompleteRegister;
+cout<<"\nClick Link in email\n\n";
+*/
